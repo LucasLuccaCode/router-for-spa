@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #2a2a30;
+  --secondary-color: #3a3a40;
+  --detail-color: #00b1ff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  background: var(--primary-color);
+}
+
+h1 {
+  color: #efefff;
+  font-size: 1.1rem;
+}
