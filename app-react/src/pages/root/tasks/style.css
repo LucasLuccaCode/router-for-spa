@@ -1,0 +1,61 @@
+.tasks {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.tasks ul {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+.tasks li {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  border: 2px solid var(--secondary-color);
+  padding: 0 .5rem;
+  border-radius: .25rem;
+}
+
+.tasks input {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  appearance: none;
+  width: .9rem;
+  height: .9rem;
+  border-radius: .1rem;
+  border: 2px solid var(--secondary-color);
+}
+
+.tasks input:checked::before {
+  content: "";
+  position: absolute;
+  width: .3rem;
+  height: .2rem;
+  margin-top: .12rem;
+  border-bottom: 2px solid cyan;
+  border-left: 2px solid cyan;
+  transform: rotate(-45deg);
+  transition: .4s ease;
+}
+
+.tasks input:checked ~ label {
+  color: #6a6a70;
+}
+
+.tasks label {
+  flex: 1;
+  font-size: .7rem;
+  color: #efefff;
+  padding: .8rem 0;
+  font-family: sans-serif;
+}
+
+.tasks .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+}

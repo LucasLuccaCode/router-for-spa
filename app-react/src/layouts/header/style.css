@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  background: rgba(255,255,255, .08);
+}
+
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0rem;
+}
+
+.header li a {
+  display: flex;
+  font-size: .8rem;
+  color: #cacad0;
+  padding: .6rem var(--margin-default);
+}
+
+.header li a:hover {
+  background: rgba(255, 255, 255, .1);
+}

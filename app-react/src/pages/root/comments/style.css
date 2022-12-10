@@ -1,0 +1,50 @@
+.comments {
+  width: 100%;
+  margin-top: .5rem;
+  /* padding: var(--margin-default); */
+}
+
+.comments ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments li {
+  display: flex;
+  align-items: flex-start;
+  padding: .7rem 0;
+  border-bottom: 2px solid rgba(255, 255, 255, .05);
+}
+
+.comments__photo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50px;
+  background: var(--secondary-color);
+}
+
+.comments__content {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  flex: 1;
+  margin-left: .8rem;
+
+}
+
+.comments h2 {
+  color: #efefff;
+  font-size: .9rem;
+}
+
+.comments p {
+  color: #cacad0;
+  font-size: .7rem;
+  font-family: sans-serif;
+}
+
+.comments .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
